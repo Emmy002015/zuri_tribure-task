@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Tribute Page</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -9,12 +10,11 @@
       <h1 id="title">Dr. Norman Borlaug</h1>
       <p>The man who saved a billion lives</p>
       <figure id="img-div">
-        <img
-          style=”height:200px, width:”200px”
+        <a 
           id="image"
-          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute-page-main-image.jpg"
-          alt="Dr. Norman Borlaug seen standing in Mexican wheat field with a group of biologists"
-        />
+          href="https://cdn.britannica.com/50/136250-050-1673FCF0/Norman-Borlaug-1970.jpg">
+          <img src="https://cdn.britannica.com/50/136250-050-1673FCF0/Norman-Borlaug-1970.jpg" 
+          alt="tribute-page-main-image" border="0"></a>
         <figcaption id="img-caption">
           Dr. Norman Borlaug, third from the left, trains biologists in Mexico
           on how to increase wheat yields - part of his life-long war on hunger.
@@ -95,9 +95,7 @@
           </li>
           <li><strong>2009</strong> - dies at the age of 95.</li>
         </ul>
-        <blockquote
-          cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm"
-        >
+        <blockquote>
           <p>
             "Borlaug's life and achievement are testimony to the far-reaching
             contribution that one man's towering intellect, persistence and
@@ -105,18 +103,21 @@
           </p>
           <cite>-- Indian Prime Minister Manmohan Singh</cite>
         </blockquote>
-        <h3>
-          <small>
+        <h4>
+          <span>
             If you have time, you should read more about this incredible human
           being on his
-          </small>
+          </span>
           <a
             id="tribute-link"
             href="https://en.wikipedia.org/wiki/Norman_Borlaug"
             target="_blank"
-            >Wikipedia entry</a
-          >.
-        </h3>
+            >Wikipedia entry
+          </a>. <br>
+          <small class="small">
+            <a href="https://codepen.io/emjoe/pen/ZEoMWJO">developed by @emjoe</a>
+          </small>
+        </h4>
       </section>
     </main>
   </body>
